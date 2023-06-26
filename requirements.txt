@@ -1,0 +1,5 @@
+Flask
+mysql-connector-python
+MySQL-python
+pytest
+shortuuid

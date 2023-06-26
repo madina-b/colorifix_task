@@ -59,6 +59,7 @@ def test_add_company_existing():
     cursor.close()
     assert company_count == 1
 
+
 def test_add_company_noname():
     payload = {
         "company_name": "" #empty name
@@ -98,38 +99,50 @@ def test_add_permission_group():
     cursor.close()
     assert group
 
+
 def test_add_permission_group_existing():
     pass
+
 
 def test_add_permission_group_noname():
     pass
 
+
 def test_add_user():
     pass
+
 
 def test_add_user_existing():
     pass
 
+
 def test_add_user_noname():
     pass
+
 
 def test_add_user_wrong_group():
     pass
 
+
 def test_add_user_wrong_company():
     pass
+
 
 def test_edit_user():
     pass
 
+
 def test_edit_user_wrong_user():
     pass
+
 
 def test_edit_user_wrong_group():
     pass
 
+
 def test_list_users():
     pass
+
 
 def test_list_user_wrong_page():
     pass

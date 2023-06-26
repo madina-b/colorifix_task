@@ -45,7 +45,7 @@ def add_permission_group():
 
     cursor = conn.cursor()
 
-    # Check if company already exists in the database
+    # Check if permission group already exists in the database
     cursor.execute("SELECT PermissionGroupName FROM PermissionGroups WHERE PermissionGroupName = %s", (permission_group_name,))
     permission_group = cursor.fetchone()
     if permission_group:
