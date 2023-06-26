@@ -88,9 +88,19 @@ The API will be accessible at http://localhost:5000.
     "company": company}}`
 
 
+## Running Tests with pytest
+Feel free to run my integration tests by
+```bash
+python -m pytest -v -s
+```
+Please refer to the tests_colorifix.py. 
+These tests are not complete, I have outlined the list of the tests that I would add if I had more time (see test_colorifix.py).
 
-
-
+## More things I would like cover
+1. add logic to access levels
+2. add id column to to tables
+3. add logic which would utilize the connections between tables in database, for example when listing users, listing their access level too
+4. add delete user/company option
 
 
 
